@@ -1,0 +1,26 @@
+/* In your main CSS file (e.g., index.css or App.css) */
+
+/* Reset default browser margins and padding, AND ensure full width */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Make sure both html and body take full width */
+  overflow-x: hidden; /* Prevent horizontal scrollbar if any element temporarily exceeds width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* The main container for your application */
+.app-container {
+  min-height: 100vh; /* Full viewport height */
+  width: 100%; /* ✨ This is critical: Ensures the container takes full width ✨ */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Your beautiful gradient background */
+  background: linear-gradient(160deg, #896deb, #6a82fb, #b070e5);
+}
+
+/* ... rest of your styles for a, h1, button, converter-card, etc. ... */

@@ -33,21 +33,18 @@ export default function Home() {
 
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
           <img
-            className="w-96"
-            src="http://googleusercontent.com/image_collection/image_retrieval/11840411096098973309"
-            alt="image1"
+            className="w-150"
+            src="https://static.vecteezy.com/system/resources/previews/007/902/676/non_2x/man-with-empty-shopping-cart-business-character-illustration-on-white-background-vector.jpg"
+            alt="Man with shopping trolley"
           />
         </div>
       </aside>
 
       <div className="grid place-items-center sm:mt-20">
         <img
-          className="sm:w-96 w-48"
-          src="
-
-http://googleusercontent.com/image_collection/image_retrieval/11881382796014989991
-"
-          alt="image2"
+          className="sm:w-50 w-66 h-33"
+          src="https://images.pexels.com/photos/10955097/pexels-photo-10955097.png"
+          alt="Skin and hair care product mock-up"
         />
       </div>
 
